@@ -1,0 +1,10 @@
+Verb
+%v - Default format
+%T - Type of the value
+%d - integrers
+%c - characters
+%q - Quoted characters/string
+%s - Plan String
+%t - true or false
+%f - floating numbers
+%.2f - floating numbers upto 2 decimal places
