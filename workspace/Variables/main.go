@@ -50,4 +50,32 @@ func main() {
 	var example string = "Joe"
 	var i int = 32
 	fmt.Printf("Hey %v! You have scored %d/100 in xyz", example, i)
+	fmt.Print("\n")
+	//Declaring the variables
+	var s string
+	s = "examplevariables"
+	fmt.Println(s)
+
+	var si, t string = "foo", "bar"
+	fmt.Println(si)
+	fmt.Println(t)
+
+	// Variables of different Data Types
+	var (
+		q string = "foo"
+		w int    = 5
+	)
+
+	fmt.Println(q)
+	fmt.Println(w)
+
+	/*Short variable declaration
+	<variable name> := <value>
+	*/
+
+	examplename := "Lisa"
+	fmt.Println(examplename)
+	examplename = "Peter"
+	fmt.Println(examplename)
+
 }
